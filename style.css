@@ -1,0 +1,100 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+a:active , a:visited{
+    color: initial;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+#header{
+    width: 100%;
+    padding: 40px 0;
+}
+.container{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.header_content , .bookmark_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul li{
+    list-style: none;
+    font-size: 14px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 350;
+}
+button{
+    background-color: hsl(0, 94%, 66%);
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgb(219, 218, 218);
+    border-radius: 5px;
+}
+.bookmark{
+    padding: 60px 0;
+}
+.description{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    color: hsl(229, 31%, 21%);
+}
+.description p{
+    color: hsl(229, 8%, 60%);
+}
+.description .btn{
+    display: flex;
+    gap: 20px;
+}
+.btn button{
+    padding: 8px;
+}
+.btn1{
+    color: #fff;
+    background-color: hsl(231, 69%, 60%);
+}
+.btn2{
+    color: hsl(229, 31%, 21%);
+    background-color: hsl(225, 4%, 82%);
+}
+.img_section {
+    height: 400px;
+}
+.img_section img{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    right: 35%;
+}
+.bg{
+    height: 200px;
+    width: 500px;
+    background-color: hsl(231, 69%, 60%);
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    position: relative;
+    top: 45%;
+    left: 50%;
+   
+}
